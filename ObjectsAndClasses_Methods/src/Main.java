@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Basket basketAndrey = new Basket();
         basketAndrey.add("Milk", 40);
+        basketAndrey.add("Bread", 55, 2);
         basketAndrey.add("Apple", 55, 3,0.3);
         basketAndrey.print("Корзина Андрея");
 
